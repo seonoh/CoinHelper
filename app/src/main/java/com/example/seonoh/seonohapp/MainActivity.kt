@@ -8,6 +8,9 @@ import com.example.seonoh.seonohapp.databinding.ActivityMainBinding
 import com.example.seonoh.seonohapp.model.MainViewModel
 import com.example.seonoh.seonohapp.repository.CoinRepositoryImpl
 
+// BaseActivity 상속
+// 어댑터 초기화, 뷰 초기화, 뷰모델 초기화
+
 class MainActivity : BaseActivity<ActivityMainBinding>(
     R.layout.activity_main
 ) {
