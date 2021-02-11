@@ -14,6 +14,8 @@ import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 
+// 서버 통신 관련 구현 부분
+
 class CoinDataSourceImpl : CoinDataSource {
 
     private val BASE_URL = "https://api.upbit.com/"

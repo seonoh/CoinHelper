@@ -7,6 +7,8 @@ import com.example.seonoh.seonohapp.repository.CoinRepositoryImpl
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 
+// 통신 및 데이터 처리관련 로직
+
 class MainViewModel(private val repo: CoinRepositoryImpl) : BaseViewModel() {
     private val _marketInfo = MutableLiveData<List<String>>()
 
