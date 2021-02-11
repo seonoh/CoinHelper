@@ -8,6 +8,9 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import com.example.seonoh.seonohapp.model.BaseViewModel
 
+// 추상 클래스
+// 제네릭, databinding
+// layout 인자로 받는다.
 abstract class BaseActivity<B : ViewDataBinding>(
     @LayoutRes
     private val layoutRes: Int
